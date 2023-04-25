@@ -1,0 +1,104 @@
+.navbar{
+    height: 60px;
+    border-bottom: 0.5px solid rgb(231, 228, 228);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    // สีของไอค่อนแว่นขยายในช่อง Search ด้านบน
+    color: #555;
+    padding: 0;
+    margin: 0;
+
+    .wrapper{
+        width: 100%;
+        padding: 15px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        .search{
+            display: flex;
+            align-items: center;
+          
+            padding: 3px;
+
+            input{
+                border: none;
+                outline: none;
+                background-color: transparent;
+
+                &::placeholder{
+                    // ขนาดของ Font คำว่า Search..
+                    font-size: 15px;
+                }
+            }
+
+        }
+
+        .items{
+            display: flex;
+            align-items: center;
+            // margin-right: 30px;
+
+            .item{
+                display: flex;
+                align-items: center;
+                margin-right: 10px;
+                position: relative;
+
+                .icon{
+                    font-size: 20px;
+                }
+
+                .avatar{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+.cursor-click {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    right: 0; /* add this line to position the dropdown from the right edge */
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

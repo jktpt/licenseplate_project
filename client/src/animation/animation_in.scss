@@ -1,0 +1,1738 @@
+.car-size{
+  width: 130px;
+}
+
+.animation-barrier-left-up{
+    animation-name: barrier-left-up;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: forwards;
+  }
+
+  .animation-barrier-right-up{
+    animation-name: barrier-right-up;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: forwards;
+  }
+
+  @keyframes barrier-left-up {
+    0%{
+      position: absolute;
+      top:0;
+      left: 9%; 
+      transform: translate(0,0);
+    }
+    50%{
+      position: absolute;
+      top:0;
+      left: 9%; 
+      transform: translate(20px,-20px) rotate(-40deg);
+    }
+    100%{
+      position: absolute;
+      top:0;
+      left: 9%; 
+      transform: translate(20px,-68px) rotate(-90deg);
+    }
+  }
+
+  @keyframes barrier-right-up {
+    0%{
+      position: absolute;
+      top:0;
+      left: 9%; 
+      transform: translate(1430px);
+    }
+    50%{
+      position: absolute;
+      top:0;
+      left: 9%; 
+      transform: translate(1430px,-20px) rotate(-40deg);
+    }
+    100%{
+      position: absolute;
+      top:0;
+      left: 9%; 
+      transform: translate(1400px,-68px) rotate(-90deg);
+    }
+  }
+
+
+.animation-barrier-left-down{
+  animation-name: barrier-left-down;
+  animation-duration: 0.8s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes barrier-left-down {
+  0%{
+    position: absolute;
+    top:0;
+    left: 9%; 
+    transform: translate(20px,-68px) rotate(-90deg);
+  }
+  50%{
+    position: absolute;
+    top:0;
+    left: 9%; 
+    transform: translate(20px,-20px) rotate(-40deg);
+  }
+  100%{
+    position: absolute;
+    top:0;
+    left: 9%; 
+    transform: translate(0,0);
+  }
+}
+
+.start-animation-car-F101{
+  animation-name: car-slot-F101;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F101 {
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+  }
+  20% {
+      width: 130px;
+      transform:  translate(130px);
+  }
+  40% {
+      width: 130px;
+      transform:  translate(165px, 80px) rotate(90deg);
+  }
+  60% {
+      width: 130px;
+      transform:  translate(165px, 100px);
+  }
+  80% {
+      width: 130px;
+      transform: translate(410px, 105px);
+  }
+  100% {
+      width: 130px;
+      transform:  translate(410px, 105px);
+  }
+}
+
+.start-animation-car-F102{
+  animation-name: car-slot-F102;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F102 {
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+20% {
+    width: 130px;
+    transform:  translate(130px);
+}
+40% {
+    width: 130px;
+    transform:  translate(165px, 100px) rotate(90deg);
+}
+60% {
+    width: 130px;
+    transform:  translate(165px, 135px) rotate(90deg);
+}
+80% {
+    width: 130px;
+    transform:  translate(200px, 180px);
+}
+90% {
+    width: 130px;
+    transform: translate(410px, 185px);
+}
+100% {
+    width: 130px;
+    transform:  translate(410px, 185px);
+}
+}
+
+.start-animation-car-F103{
+  animation-name: car-slot-F103;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F103 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+20% {
+    width: 130px;
+    transform:  translate(200px);
+}
+40% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+60% {
+    width: 130px;
+    transform:  translate(235px, 220px) rotate(90deg);
+}
+80% {
+    width: 130px;
+    transform:  translate(265px, 270px);
+}
+90% {
+    width: 130px;
+    transform: translate(410px, 270px);
+}
+100% {
+    width: 130px;
+    transform:  translate(410px, 270px);
+}
+}
+
+.start-animation-car-F104{
+  animation-name: car-slot-F104;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F104 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+20% {
+    width: 130px;
+    transform:  translate(200px);
+}
+40% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+60% {
+    width: 130px;
+    transform:  translate(235px, 300px) rotate(90deg);
+}
+80% {
+    width: 130px;
+    transform:  translate(265px, 350px);
+}
+90% {
+    width: 130px;
+    transform: translate(410px, 350px);
+}
+100% {
+    width: 130px;
+    transform:  translate(410px, 350px);
+}
+}
+
+.start-animation-car-F105{
+  animation-name: car-slot-F105;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F105 {
+  // Start
+  
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(705px, 425px);
+}
+60% {
+    width: 130px;
+    transform: translate(730px, 390px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(730px, 135px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(690px, 115px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(590px, 115px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(590px, 115px) rotate(-180deg);
+}
+}
+
+.start-animation-car-F106{
+  animation-name: car-slot-F106;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F106 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(705px, 425px);
+}
+60% {
+    width: 130px;
+    transform: translate(730px, 390px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(730px, 218px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(690px, 198px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(590px, 198px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(590px, 198px) rotate(-180deg);
+}
+}
+
+.start-animation-car-F107{
+  animation-name: car-slot-F107;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F107 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(705px, 425px);
+}
+60% {
+    width: 130px;
+    transform: translate(730px, 390px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(730px, 300px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(690px, 280px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(590px, 280px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(590px, 280px) rotate(-180deg);
+}
+}
+
+.start-animation-car-F108{
+  animation-name: car-slot-F108;
+  animation-duration: 6s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F108 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(705px, 425px);
+}
+/*60% {
+    width: 130px;
+    transform: translate(730px, 390px) rotate(-90deg);
+}*/
+60% {
+  width: 130px;
+  transform: translate(730px, 380px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(690px, 360px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(590px, 360px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(590px, 360px) rotate(-180deg);
+}
+}
+
+.start-animation-car-F109{
+  animation-name: car-slot-F109;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F109 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+20% {
+    width: 130px;
+    transform:  translate(200px);
+}
+40% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+60% {
+    width: 130px;
+    transform:  translate(235px, 455px) rotate(90deg);
+}
+80% {
+    width: 130px;
+    transform:  translate(265px, 505px);
+}
+90% {
+    width: 130px;
+    transform: translate(410px, 505px);
+}
+100% {
+    width: 130px;
+    transform:  translate(410px, 505px);
+}
+}
+
+
+.start-animation-car-F110{
+  animation-name: car-slot-F110;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F110 {
+  // Start
+   0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+20% {
+    width: 130px;
+    transform:  translate(200px);
+}
+40% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+60% {
+    width: 130px;
+    transform:  translate(235px, 535px) rotate(90deg);
+}
+80% {
+    width: 130px;
+    transform:  translate(265px, 585px);
+}
+90% {
+    width: 130px;
+    transform: translate(410px, 585px);
+}
+100% {
+    width: 130px;
+    transform:  translate(410px, 585px);
+}
+}
+
+.start-animation-car-F111{
+  animation-name: car-slot-F111;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F111 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+20% {
+    width: 130px;
+    transform:  translate(200px);
+}
+40% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+60% {
+    width: 130px;
+    transform:  translate(235px, 620px) rotate(90deg);
+}
+80% {
+    width: 130px;
+    transform:  translate(265px, 670px);
+}
+90% {
+    width: 130px;
+    transform: translate(410px, 670px);
+}
+100% {
+    width: 130px;
+    transform:  translate(410px, 670px);
+}
+}
+
+
+.start-animation-car-F112{
+  animation-name: car-slot-F112;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F112 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+20% {
+    width: 130px;
+    transform:  translate(200px);
+}
+40% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+60% {
+    width: 130px;
+    transform:  translate(235px, 700px) rotate(90deg);
+}
+80% {
+    width: 130px;
+    transform:  translate(265px, 750px);
+}
+90% {
+    width: 130px;
+    transform: translate(410px, 750px);
+}
+100% {
+    width: 130px;
+    transform:  translate(410px, 750px);
+}
+}
+
+
+.start-animation-car-F113{
+  animation-name: car-slot-F113;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F113 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(705px, 830px);
+}
+60% {
+    width: 130px;
+    transform: translate(730px, 795px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(730px, 535px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(690px, 515px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(590px, 515px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(590px, 515px) rotate(-180deg);
+}
+}
+
+.start-animation-car-F114{
+  animation-name: car-slot-F114;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F114 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(705px, 830px);
+}
+60% {
+    width: 130px;
+    transform: translate(730px, 795px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(730px, 618px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(690px, 598px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(590px, 598px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(590px, 598px) rotate(-180deg);
+}
+}
+
+.start-animation-car-F115{
+  animation-name: car-slot-F115;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F115 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(705px, 830px);
+}
+60% {
+    width: 130px;
+    transform: translate(730px, 795px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(730px, 700px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(690px, 680px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(590px, 680px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(590px, 680px) rotate(-180deg);
+}
+}
+
+.start-animation-car-F116{
+  animation-name: car-slot-F116;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F116 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(705px, 830px);
+}
+/*60% {
+    width: 130px;
+    transform: translate(730px, 390px) rotate(-90deg);
+}*/
+60% {
+  width: 130px;
+  transform: translate(730px, 780px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(690px, 760px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(590px, 760px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(590px, 760px) rotate(-180deg);
+}
+}
+
+.start-animation-car-F117{
+  animation-name: car-slot-F117;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F117 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(860px, 425px);
+}
+60% {
+    width: 130px;
+    transform: translate(860px, 390px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(860px, 125px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(910px, 105px);
+}
+90% {
+  width: 130px;
+  transform: translate(1010px, 105px);
+}
+100% {
+    width: 130px;
+    transform:  translate(1010px, 105px);
+}
+}
+
+.start-animation-car-F118{
+  animation-name: car-slot-F118;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F118 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(860px, 425px);
+}
+60% {
+    width: 130px;
+    transform: translate(860px, 390px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(860px, 205px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(910px, 185px);
+}
+90% {
+  width: 130px;
+  transform: translate(1010px, 185px);
+}
+100% {
+    width: 130px;
+    transform:  translate(1010px, 185px);
+}
+}
+.start-animation-car-F119{
+  animation-name: car-slot-F119;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F119 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(860px, 425px);
+}
+60% {
+    width: 130px;
+    transform: translate(860px, 390px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(860px, 290px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(910px, 270px);
+}
+90% {
+  width: 130px;
+  transform: translate(1010px, 270px);
+}
+100% {
+    width: 130px;
+    transform:  translate(1010px, 270px);
+}
+}
+.start-animation-car-F120{
+  animation-name: car-slot-F120;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F120 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(860px, 425px);
+}
+/*60% {
+    width: 130px;
+    transform: translate(860px, 390px) rotate(-90deg);
+}*/
+60% {
+  width: 130px;
+  transform: translate(860px, 370px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(910px, 350px);
+}
+90% {
+  width: 130px;
+  transform: translate(1010px, 350px);
+}
+100% {
+    width: 130px;
+    transform:  translate(1010px, 350px);
+}
+}
+.start-animation-car-F121{
+  animation-name: car-slot-F121;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F121 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(1305px, 425px);
+}
+60% {
+    width: 130px;
+    transform: translate(1330px, 390px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(1330px, 135px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(1290px, 115px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(1190px, 115px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(1190px, 115px) rotate(-180deg);
+}
+}
+
+.start-animation-car-F122{
+  animation-name: car-slot-F122;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F122 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(1305px, 425px);
+}
+60% {
+    width: 130px;
+    transform: translate(1330px, 390px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(1330px, 208px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(1290px, 198px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(1190px, 198px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(1190px, 198px) rotate(-180deg);
+}
+}
+.start-animation-car-F123{
+  animation-name: car-slot-F123;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F123 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(1305px, 425px);
+}
+60% {
+    width: 130px;
+    transform: translate(1330px, 390px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(1330px, 300px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(1290px, 280px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(1190px, 280px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(1190px, 280px) rotate(-180deg);
+}
+}
+
+
+.start-animation-car-F124{
+  animation-name: car-slot-F124;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F124 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 390px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 425px);
+}
+50% {
+    width: 130px;
+    transform: translate(1305px, 425px);
+}
+/*60% {
+    width: 130px;
+    transform: translate(1330px, 390px) rotate(-90deg);
+}*/
+60% {
+  width: 130px;
+  transform: translate(1330px, 380px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(1290px, 360px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(1190px, 360px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(1190px, 360px) rotate(-180deg);
+}
+}
+
+.start-animation-car-F125{
+  animation-name: car-slot-F125;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F125 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(860px, 830px);
+}
+60% {
+    width: 130px;
+    transform: translate(860px, 795px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(860px, 525px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(910px, 505px);
+}
+90% {
+  width: 130px;
+  transform: translate(1010px, 505px);
+}
+100% {
+    width: 130px;
+    transform:  translate(1010px, 505px);
+}
+ }
+ .start-animation-car-F126{
+  animation-name: car-slot-F126;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F126 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(860px, 830px);
+}
+60% {
+    width: 130px;
+    transform: translate(860px, 795px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(860px, 605px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(910px, 585px);
+}
+90% {
+  width: 130px;
+  transform: translate(1010px, 585px);
+}
+100% {
+    width: 130px;
+    transform:  translate(1010px, 585px);
+}
+ }
+ .start-animation-car-F127{
+  animation-name: car-slot-F127;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F127 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(860px, 830px);
+}
+60% {
+    width: 130px;
+    transform: translate(860px, 795px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(860px, 690px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(910px, 670px);
+}
+90% {
+  width: 130px;
+  transform: translate(1010px, 670px);
+}
+100% {
+    width: 130px;
+    transform:  translate(1010px, 670px);
+}
+ }
+ .start-animation-car-F128{
+  animation-name: car-slot-F128;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F128 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(860px, 830px);
+}
+/*60% {
+    width: 130px;
+    transform: translate(860px, 795px) rotate(-90deg);
+}*/
+60% {
+  width: 130px;
+  transform: translate(860px, 770px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(910px, 750px);
+}
+90% {
+  width: 130px;
+  transform: translate(1010px, 750px);
+}
+100% {
+    width: 130px;
+    transform:  translate(1010px, 750px);
+}
+ }
+
+ .start-animation-car-F129{
+  animation-name: car-slot-F129;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F129 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(1305px, 830px);
+}
+60% {
+    width: 130px;
+    transform: translate(1330px, 795px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(1330px, 535px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(1290px, 515px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(1190px, 515px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(1190px, 515px) rotate(-180deg);
+}
+}
+.start-animation-car-F130{
+  animation-name: car-slot-F130;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F130 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(1305px, 830px);
+}
+60% {
+    width: 130px;
+    transform: translate(1330px, 795px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(1330px, 618px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(1290px, 598px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(1190px, 598px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(1190px, 598px) rotate(-180deg);
+}
+}
+.start-animation-car-F131{
+  animation-name: car-slot-F131;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F131 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(1305px, 830px);
+}
+60% {
+    width: 130px;
+    transform: translate(1330px, 795px) rotate(-90deg);
+}
+70% {
+  width: 130px;
+  transform: translate(1330px, 700px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(1290px, 680px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(1190px, 680px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(1190px, 680px) rotate(-180deg);
+}
+}
+.start-animation-car-F132{
+  animation-name: car-slot-F132;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: forwards;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes car-slot-F132 {
+  // Start
+  0% {
+    width: 130px;
+    transform:  translate(0px,0px);
+}
+10% {
+    width: 130px;
+    transform:  translate(200px);
+}
+20% {
+    width: 130px;
+    transform:  translate(235px, 100px) rotate(90deg);
+}
+30% {
+    width: 130px;
+    transform:  translate(235px, 795px) rotate(90deg);
+}
+40% {
+    width: 130px;
+    transform:  translate(260px, 830px);
+}
+50% {
+    width: 130px;
+    transform: translate(1305px, 830px);
+}
+/*60% {
+    width: 130px;
+    transform: translate(1330px, 795px) rotate(-90deg);
+}*/
+60% {
+  width: 130px;
+  transform: translate(1330px, 780px) rotate(-90deg);
+}
+80% {
+  width: 130px;
+  transform: translate(1290px, 760px) rotate(-180deg);
+}
+90% {
+  width: 130px;
+  transform: translate(1190px, 760px) rotate(-180deg);
+}
+100% {
+    width: 130px;
+    transform:  translate(1190px, 760px) rotate(-180deg);
+}
+}

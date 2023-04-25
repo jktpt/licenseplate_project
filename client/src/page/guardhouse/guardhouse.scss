@@ -1,0 +1,40 @@
+
+.latest-car-guard{
+    font-size: 40px;
+    color: white;
+}
+.guard-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2727;
+}
+.border-guard-text-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(245, 245, 245);
+    background-color: white;
+    border-radius: 5px;
+}
+.guard-text-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    // border-bottom: 1px solid #646464;
+}
+.guard-text-container:nth-child(4){
+    border: none;
+}
+.image-guard{
+    width: 320px;
+    height: 170px;
+    border-radius: 15px;
+}

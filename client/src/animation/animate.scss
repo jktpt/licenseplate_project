@@ -1,0 +1,160 @@
+body{
+  // overflow-x: hidden;
+}
+
+.floor-selection{
+  // display: flex;
+  // width: 100%;
+  position: absolute;
+  left: 35%;
+  // margin: 0 auto;
+}
+.set-middle{
+  // margin: 0 auto;
+  position: relative;
+  left: 80%;
+}
+
+.car-animation-from-parking{
+  width: 50px;
+}
+.test-checkinout{
+    width: 100vw;
+    height: 100vh;
+    // -webkit-background-size: cover;
+    // margin: 0;
+    // padding: 0;
+    background-size: cover;
+    // background-color: #2a2c30;
+    
+}
+.absolute-scss{
+    position: absolute;
+
+}
+.photo-left-barrier{
+  left: 9%;
+}
+
+.photo-right-barrier{
+  right:17%;
+}
+
+.container-animate{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: column;
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    top: 10%;
+    left: 9%;
+    margin: 0;
+    
+}
+
+.container-in-animate {
+    // width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    // margin: 0 auto;
+
+  .animate-container-row {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: column;
+    grid-gap: 2px;
+    width: 180px;
+
+    .slot-before-taken-container {
+      width: 180px;
+      height: 80px;
+      overflow: hidden;
+
+      .image-size-slot {
+        width: 100%;
+        height: 100%;
+        border-radius: 2px;
+      }
+
+      .btn-slot-before-taken {
+        width: 80%;
+        height: 75%;
+        position: relative;
+        bottom: 70px;
+        left: 20px;
+        // ปรับพื้นหลังของ button
+        background-color: #c4d8f5;
+        // กรอบ button
+        border: 2px solid rgb(40, 105, 226);
+        border-radius: 8px;
+        transform: scale(0.98);
+      }
+
+      .btn-slot-before-taken:hover {
+        // ตอนเอาเม้าส์ชี้ button
+        background-color: rgba(210, 227, 250, 0.671);
+        transform: scale(1);
+      }
+
+      .btn-slot-before-taken-lock {
+        width: 80%;
+        height: 75%;
+        position: relative;
+        bottom: 70px;
+        left: 20px;
+        // ปรับพื้นหลังของ button
+        background-color: #ff3131 ;
+        // กรอบ button
+        border: 2px solid #ff3131 ;
+        border-radius: 8px;
+        transform: scale(0.98);
+        color: white;
+      }
+
+      .btn-slot-before-taken-lock:hover {
+        // ตอนเอาเม้าส์ชี้ button
+        background-color: #ff0000  ;
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+
+.car-in-parking-slot{
+  position: relative;
+  bottom: 150%;
+  width: 130px;
+  left: 12.5%;
+}
+
+.car-in-parking-slot-right{
+  position: relative;
+  bottom: 138%;
+  width: 130px;
+  left: 16%;
+}
+
+
+.success-car-slot{
+  display: none;
+}
+
+
+.market-photo-image{
+  width: 300px;
+  height: 250px;
+  position: relative;
+  left: 100px;
+}
+
+.your-car{
+  // background-color: salmon;
+  // border: 3px solid red;
+  // border-radius: 10px;
+  // opacity: 0.5;
+}

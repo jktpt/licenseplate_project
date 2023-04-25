@@ -1,0 +1,65 @@
+.widget{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    flex:2;
+    border-bottom: 1.5px solid rgb(238, 232, 232);
+    // width: 340px;
+    // height: 105px;
+    
+    .positive{
+        //  สีเขียวรถเข้า
+        color: green;
+    }
+
+    .negative{
+        //  สีแดงรถออก 
+        color: red;
+    }
+
+    .before-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left, .right{
+        display: flex;
+        flex-direction: column;
+
+        .license{
+            font-weight: bold;
+            width: max-content;
+            font-size: 14px;
+            color: black;
+            .font-plate{
+                font-weight: 350;
+                font-size: 14px;
+            }
+
+        }
+       
+        .percentage{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            
+            &.positive{
+                // สีเขียวรถเข้า ถ้าแก้ต้องตรงกับข้างบน
+                color: green;
+            }
+
+            &.negative{
+                // สีแดงรถออก ถ้าแก้ต้องตรงกับข้างบน
+                color: red;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .widget{
+        width: 70%;
+        height: 100%;
+    }
+    }

@@ -1,0 +1,55 @@
+.feature{
+    flex: 1;
+    box-shadow: 0px 0px 6px 1px rgba(201,199,199,0.75);
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(201,199,199,0.75);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(201,199,199,0.75);
+    padding: 10px;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        // สีของ Total Revenue
+        color: #6140d8;
+
+        .title{
+            margin: 10px;
+            //  ขนาดของ Total Revenue
+            font-size: 22px;
+            font-weight: 500;
+        }
+    }
+
+    .bottom{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        .featureChart{
+            width: 100px;
+            height: 100px;
+        }
+
+        .title{
+            font-weight: 500;
+            // สีของคำว่า Total sales made today
+            color: gray;
+        }
+
+        .amount{
+            font-size: 30px;
+        }
+
+        .desc{
+            font-weight: 300;
+            font-size: 12px;
+            margin-bottom: 0px;
+            // สีของคำ 2 บรรทัดด้านล่าง 700 THB 
+            color: gray;
+            text-align: center;
+        }
+    }
+}

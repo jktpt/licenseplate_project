@@ -1,0 +1,100 @@
+.App.dark{
+    background-color: #222;
+    .chartGrid{
+        stroke: rgba(228,228,228,0.219);
+    }
+   .table{
+        background-color: #222;
+        .tableCell{
+            color: rgb(216, 214, 214);
+        }
+   }
+
+   .navbar{
+    color: white;
+    border-color: #333;
+   }
+
+   .sidebar{
+    background-color: #111;
+    border-color: #333;
+        .top{
+            .logo{
+                color: rgb(216, 214, 214);
+            }
+        }
+        hr{
+            border-color: rgb(216, 214, 214);
+        }
+        ul{
+            li{
+                &:hover{
+                    background-color: #333;
+                }
+            }
+        }
+
+   }
+
+   .datatable{
+        .datagrid{
+            color: rgb(216, 214, 214);
+            border:none;
+
+            .deleteButton,.cellWithStatus{
+                color: rgb(216, 214, 214);
+                border: none;
+            }
+        }
+   }
+
+   .container{
+    color: white;
+        .btn{
+            color: white;
+        }
+        .card{
+            background-color: #222;
+        }
+    }
+    
+    .license{
+        color: rgb(216, 214, 214);
+    }
+
+    .recently{
+        color:#fdfdfd;
+    }
+
+    .listContainer{
+        .listTitle{
+            color: #fdfdfd;
+        }
+    }
+
+    .dataoffset{
+        .today-car,.total-car,.c,.d{
+            box-shadow: rgb(255, 255, 255) 0px 1px 1px, rgb(255, 255, 255) 0px 0px 1px 1px;
+            color: white;
+            
+            .font-Offset{
+                color: rgb(209, 208, 208);
+            }
+       }
+    }
+
+    .chart{
+        .title{
+            color:#fdfdfd;
+        }
+    }
+
+    .title{
+        color:#fdfdfd;
+        
+    }
+    
+    .amount{
+        color: #fdfdfd;
+    }
+}
